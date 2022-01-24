@@ -1,3 +1,9 @@
+# Agilife home page
+
+This repository hosts sources of Agilife home page. It is based on Jekyll theme for which original README is appended below.
+
+-----
+
 # Agency Jekyll Theme
 
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
