@@ -144,19 +144,28 @@ en: &DEFAULT_EN
         url: "http://www.sylwiabryniarska.pl/"
       
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Dane kontaktowe"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
+    phone:
+      title: "Telefon"
+      number: "+48 792 610 996"
+    email:
+      title: "Email"
+      address: "agilife@hi-low.eu"
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
     submit: "Send Message"
+    
+    address:
+      - "Agilife - Klub Agility"
+      - "ul. Saturnowska 2b"
+      - "41-250 Czeladź"
 
   footer:
     legal: "Privacy Policy"
