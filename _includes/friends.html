@@ -1,0 +1,15 @@
+<!-- Clients -->
+  <section class="py-5" id="{{ site.data.sitetext[site.locale].friends.section | default: "clients" }}">
+    <div class="container">
+      <div class="row" {% if site.data.sitetext[site.locale].friends.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
+	    {% for friend in site.data.sitetext[site.locale].friends.list %}
+        <div class="col-md-3 col-sm-6">
+          <a href="{{ friend.url }}">
+            <img class="img-fluid d-block mx-auto" src="{{ friend.logo }}" alt="{{ friend.title }}" style="max-height: {{ site.data.sitetext[site.locale].friends.max-height | default: "100px" }}">
+            <p style="width: 100%; text-align: center;">{{ friend.title }}</p>
+          </a><br/>
+        </div>
+	    {% endfor %}
+      </div>
+    </div>
+  </section>

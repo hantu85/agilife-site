@@ -11,25 +11,57 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Witaj w klubie!
+    text: ""
+    button: Oferta
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Oferta"
+    text: "Jeśli jesteś zainteresowany kursem, szkoleniem indywidualnym lub fitnesem proszę skontaktuj się!"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Kursy agility"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "Treningi indywidualne"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Treningi agility"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "Dog fitness"
+        desc: "
+          DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia czynne u psów po zabiegach ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
+          <br/> 
+          U zwierząt chorych wspomaga proces powrotu do sprawności lub ułatwia poruszanie się.
+          <br/> 
+          U zdrowych psów poprawia koordynację, sprawność fizyczna, zwinność, skoczność, wydolność oraz gibkość.
+          <br/> 
+          To świetny sposób na budowanie więzi z psem oraz naukę nowych umiejętności gdy za oknem warunki nie pozwalają na aktywność poza domem.
+          "
+        image: assets/img/services/dog_fitness.jpg
+        #icon: fab fa-markdown
+
+  gallery:
+    title: "Galeria"
+    section: gallery
+    items:
+      - title: "Jesienne zawody Agility Agilife"
+        subtitle: "06-07.10.2018 Część 1"
+        image: /assets/img/gallery/jesienne_1.jpg
+        url: https://www.facebook.com/media/set/?set=a.2054355451293189&type=3
+      - title: "Kwalifikacje Do Mistrzostw Świata Agility"
+        subtitle: "Będzin 18-19.05.2019 Część 1"
+        image: /assets/img/gallery/kwal_ms_bedzin_2019_1.jpg
+        url: https://www.facebook.com/media/set/?set=a.2386374274757970&type=3
+      - title: "Kwalifikacje Do Mistrzostw Świata Agility"
+        subtitle: "Będzin 18-19.05.2019 Część 2"
+        image: /assets/img/gallery/kwal_ms_bedzin_2019_2.jpg
+        url: https://www.facebook.com/media/set/?set=a.2387927031269361&type=3
+      - title: "Kwalifikacje do Mistrzostw Świata Będzin"
+        image: /assets/img/gallery/kwal_ms_bedzin.jpg
+        url: https://www.facebook.com/media/set/?set=a.2423424794386251&type=3
 
   portfolio:
     title: "Portfolio"
@@ -38,97 +70,79 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Historia klubu"
+    text: "Najważniejsze momenty w naszym rozwoju"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Nasze początki"
+        year: "2011"
+        desc: "Klub powstał w maju 2011 roku we współpracy ze sklepem Karusek zlokalizowanym w Będzinie-Grodźcu w parku Rozkówka."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Poszerzenie działalności"
+        year: "2013"
+        desc: "Organizujemy pokazy, szkolenia, kursy oraz zawody. Promujemy wszelkie aktywności z psami, co ważne nie tylko rasowymi, ale również kundelkami. Odnajdą się u Nas małe Psie Torpedy jak i Stonowani Psi Arystokraci 😉"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Oficjalne zawody"
+        year: "2017"
+        desc: "Poszerzamy działalność o zawody oficjalne pod patronatem ZKWP/FCI we współpracy ZKWP Odział Będzin."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+#      - title: "Title"
+#        year: "2009-2011"
+#        desc: "Your description here, **Markdown** is fully supported."
+#        image: assets/img/timeline/4.jpg
+#        alt:
+#        # you can enforce the alignment
+#        align: right
+    end: "Twórz <br/> historię <br/> z nami!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "O nas"
+    text: "Nasza historia"
+    body: "
+      Nasza przygoda ze sportami kynologicznymi rozpoczęła 2009 roku. Wtedy nasza założycielka wraz z psem rasy Beagle o imieniu Tequila, zgłębiały tajniki posłuszeństwa podstawowego, a później zaawansowanego. Rok później trenowała już agility oraz jeździła na liczne seminaria i obozy prowadzone przez trenerów zagranicznych i polskich. Od 2012 roku jest czynnym zawodnikiem Agility.
+      <br/><br/>
+      Od kilku lat prowadzi w klubie zajęcia z agility oraz motywacji. Na torze stawiamy przede wszystkim na relacje pies-przewodnik, wspólną zabawę oraz zaangażowanie.
+      <br/><br/>
+      Od 2013 roku w treningach wykorzystujemy wiedzę z zakresu fizjoterapii, a od 2017 roku zoofizjoterapię małych zwierząt zdobytą na studiach z tych kierunków. Wiedza, pozwala nam mądrze i odpowiedzialnie kierować treningami. Zmniejszamy dzięki temu ryzyko powstania kontuzji zarówno u psa jak i u przewodnika. Bez względu na to czy dopiero rozpoczynasz swoją przygodę z Agility, czy jesteś zaawansowanym zawodnikiem, wspólnie opracujemy plan działania.
+      "
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Nasi trenerzy"
+    text: "Nasze grono trenerskie charakteryzuje się otwartością, profesjonalizmem oraz pełnym zaangażowaniem."
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
+      - name: "Ania"
+        role: "Trener i zawodnik"
+        phone: "+48 792 610 996"
+        image: assets/img/team/ania.jpg
+        social: 
+          - url: https://www.facebook.com/anna.muszynska.37
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://www.instagram.com/anna.muszynska.psiosfera/
+            icon: fab fa-instagram
+          - url: tel:+48-792-610-996
+            icon: fa fa-phone       
+          - url: mailto:ania@hi-low.eu
+            icon: fa fa-at 
 
+  friends:
+    max-height: 100px;
+    section: friends
+    horizontal-scrolling: "" #yes/no
+    list:
+      - title: "Psi Paragraf"
+        logo: https://psiparagraf.pl/wp-content/themes/thesis_189/custom/images/kancelaria.logo.png
+        url: "http://psiparagraf.pl/"
+      - title: "ArtSfera Sylwia Bryniarska"
+        logo: https://www.sylwiabryniarska.pl/wp-content/logo.jpg
+        url: "http://www.sylwiabryniarska.pl/"
+      
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
@@ -147,16 +161,14 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
+      - url: https://www.facebook.com/AgilifeKlub
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      - url: tel:+48-792-610-996
+        icon: fa fa-phone       
+      - url: mailto:ania@hi-low.eu
+        icon: fa fa-at 
+
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -166,157 +178,5 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+pl-PL:
+  <<: *DEFAULT_EN
