@@ -22,14 +22,16 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Kursy agility"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        desc: "Kurs agility obejmuje 8 zajęć grupowych z podstaw agility. Zajęcia są grupowe. Grupa to najczęściej 3 lub 4 pary ćwiczące.
+          Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Na kursie ustalony jest program zajęć, oraz prace domowe."
+        image: assets/img/services/kurs.jpeg
       - title: "Treningi indywidualne"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
+        desc: "Zajęcia indywidualne są przeznaczone dla psów, które z jakiś przyczyn nie są w stanie uczestniczyć w zajęciach grupowych lub treningach klubowych.
+        Rozraszają się innymi psami lub ludźmi, mają problem ze skupieniem lub posłuszeństwem."
+        image: assets/img/services/ind.jpeg
       - title: "Treningi agility"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
+        desc: "Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility. Grupy od 3 do 5 par."
+        image: assets/img/services/agi2.jpeg
       - title: "Dog fitness"
         desc: "
           DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia czynne u psów po zabiegach ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
