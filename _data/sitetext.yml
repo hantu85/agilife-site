@@ -26,20 +26,19 @@ en: &DEFAULT_EN
           Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Na kursie ustalony jest program zajęć, oraz prace domowe."
         image: assets/img/services/kurs.jpeg
       - title: "Treningi indywidualne"
-        desc: "Zajęcia indywidualne są przeznaczone dla psów, które z jakiś przyczyn nie są w stanie uczestniczyć w zajęciach grupowych lub treningach klubowych.
-        Rozraszają się innymi psami lub ludźmi, mają problem ze skupieniem lub posłuszeństwem."
-        image: assets/img/services/ind.jpeg
+        desc: "Zajęcia indywidualne są przeznaczone dla psów, które z różnych przyczyn nie są w stanie uczestniczyć w zajęciach grupowych.
+        Rozpraszają się innymi psami lub ludźmi, mają problem ze skupieniem lub posłuszeństwem. Zajęcia indywidualne obejmują różną tematykę, jak motywację, podstawy posłuszeństwa czy problemy życia codziennego. "
+        image: assets/img/services/ind2.jpeg
       - title: "Treningi agility"
-        desc: "Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility. Grupy od 3 do 5 par."
+        desc: "Główna część naszej działaności. Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility. Grupy od 3 do 5 par. Na treningach skupiamy się na konkretnych sekwencjach, sposobach prowadzenia psa na torze.
+        Czasami są treningi torkowe, a czasami dłubanie detali, nauka nowych przeszkód."
         image: assets/img/services/agi2.jpeg
+      - title: "Treningi frisbee"
+        desc: "zajęcia z frisbee"
+        image: assets/img/services/fris.jpeg
       - title: "Dog fitness"
         desc: "
-          DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia czynne u psów po zabiegach ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
-          <br/> 
-          U zwierząt chorych wspomaga proces powrotu do sprawności lub ułatwia poruszanie się.
-          <br/> 
-          U zdrowych psów poprawia koordynację, sprawność fizyczna, zwinność, skoczność, wydolność oraz gibkość.
-          <br/> 
+          DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia lub terapia u psów po zabiegach ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
           To świetny sposób na budowanie więzi z psem oraz naukę nowych umiejętności gdy za oknem warunki nie pozwalają na aktywność poza domem.
           "
         image: assets/img/services/dog_fitness.jpg
@@ -81,17 +80,18 @@ en: &DEFAULT_EN
       - title: "Nasze początki"
         year: "2011"
         desc: "Klub powstał w maju 2011 roku we współpracy ze sklepem Karusek zlokalizowanym w Będzinie-Grodźcu w parku Rozkówka."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/rozk.jpeg
         alt:
       - title: "Poszerzenie działalności"
         year: "2013"
-        desc: "Organizujemy pokazy, szkolenia, kursy oraz zawody. Promujemy wszelkie aktywności z psami, co ważne nie tylko rasowymi, ale również kundelkami. Odnajdą się u Nas małe Psie Torpedy jak i Stonowani Psi Arystokraci 😉"
-        image: assets/img/timeline/2.jpg
+        desc: "Organizujemy pokazy na imprezach i wystawach, seminaria agilty, motywacji oraz kursy. Promujemy  aktywność z psami, co ważne nie tylko rasowymi, ale również kundelkami.
+        "
+        image: assets/img/timeline/pokaz.jpeg
         alt:
       - title: "Oficjalne zawody"
         year: "2017"
         desc: "Poszerzamy działalność o zawody oficjalne pod patronatem ZKWP/FCI we współpracy ZKWP Odział Będzin."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/zawody.jpeg
         alt: image alt text
 #      - title: "Title"
 #        year: "2009-2011"
@@ -121,18 +121,30 @@ en: &DEFAULT_EN
     people:
       - name: "Ania"
         role: "Trener i zawodnik"
-        phone: "+48 792 610 996"
+        phone: "+48 793 610 996"
         image: assets/img/team/ania.jpg
         social: 
           - url: https://www.facebook.com/anna.muszynska.37
             icon: fab fa-facebook-f
           - url: https://www.instagram.com/anna.muszynska.psiosfera/
             icon: fab fa-instagram
-          - url: tel:+48-792-610-996
+          - url: tel:+48-793-610-996
             icon: fa fa-phone       
           - url: mailto:ania@hi-low.eu
             icon: fa fa-at 
-
+      - name: "Ola"
+        role: "Trener i zawodnik"
+        phone: "+48 698 556 373"
+        image: assets/img/team/Ola.jpeg
+        social:
+          - url: https://www.facebook.com/olkenz.hojenska
+            icon: fab fa-facebook-f
+          - url: https://www.instagram.com/_kalles_/
+            icon: fab fa-instagram
+          - url: tel:+48-698-556-373
+            icon: fa fa-phone
+          - url: mailto:aleksandrahojenska@gmail.com
+            icon: fa fa-at
   friends:
     max-height: 100px;
     section: friends
