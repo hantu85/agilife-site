@@ -22,25 +22,49 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Kursy agility"
-        desc: "Kurs agility obejmuje 8 zajęć grupowych z podstaw agility. Zajęcia są grupowe. Grupa to najczęściej 3 lub 4 pary ćwiczące.
-          Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Na kursie ustalony jest program zajęć, oraz prace domowe."
+        desc: "Kurs agility obejmuje 8 zajęć grupowych z podstaw agility. Grupa to najczęściej 3 lub 4 pary ćwiczące.
+          Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Na kursie ustalony jest program zajęć, oraz prace domowe. Kurs przeznaczony dla psów od 8 miesiąca życia, posiadającego podstawy posłuszeństwa i motywacje do pracy z człowiekiem."
         image: assets/img/services/kurs.jpeg
       - title: "Treningi indywidualne"
         desc: "Zajęcia indywidualne są przeznaczone dla psów, które z różnych przyczyn nie są w stanie uczestniczyć w zajęciach grupowych.
         Rozpraszają się innymi psami lub ludźmi, mają problem ze skupieniem lub posłuszeństwem. Zajęcia indywidualne obejmują różną tematykę, jak motywację, podstawy posłuszeństwa czy problemy życia codziennego. "
         image: assets/img/services/ind2.jpeg
       - title: "Treningi agility"
-        desc: "Główna część naszej działaności. Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility. Grupy od 3 do 5 par. Na treningach skupiamy się na konkretnych sekwencjach, sposobach prowadzenia psa na torze.
+        desc: "Główna część naszej działaności. Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility.
+        Grupy od 3 do 5 par. Na treningach skupiamy się na konkretnych sekwencjach, sposobach prowadzenia psa na torze.
         Czasami są treningi torkowe, a czasami dłubanie detali, nauka nowych przeszkód."
         image: assets/img/services/agi2.jpeg
-      - title: "Treningi frisbee"
-        desc: "zajęcia z frisbee"
+      - title: "Kurs dogfrisbee"
+        desc: "Kurs obejmuje 6 zajęć grupowych, pierwsze zajęcia odbywają się bez psów i opierają się na nauce podstawowych rzutów frisbee.
+        Grupa to 4 pary ćwiczące. Kurs przeznaczony dla psów od 10 miesiąca życia, posiadających motywację na zabawkę oraz nie posiadających przeciwwskazań zdrowotnych, bądź behawioralnych (tj. agresja, lękliwość, itp.).
+        Wymagania do kursu: posiadanie własnego szarpaka oraz conajmniej 2 dysków przystosowanych dla psów (polecamy dyski z dogfrisbee.pl)."
         image: assets/img/services/fris.jpeg
+      - title: "Kurs rzuty dla początkujących"
+        desc: "Kurs obejmuje 5 zajęć grupowych i odbywa się bez psów, grupa to 4-8 osób. Zajęcia obejmują naukę poprawnego chwytu dysku, różnorodnych rzutów,
+        ćwiczenia poprawiające celność oraz precyzję. Na tym kursie nikt nie będzie się nudzić!"
+        image: assets/img/services/frisbee.jpg
+      - title: "Kurs rzuty dla zaawansowanych"
+        desc: "Kurs obejmuje 5 zajęć grupowych i odbywa się bez psów, grupa to 4-8 osób. Zajęcia obejmują naukę bardziej skomplikowanych rzutów frisbee,
+        różnego rodzaju tricki związane z frisbee i urozmaiceniem freestyle'u od strony zawodnika. Kurs przeznaczony dla osób lubiących wyzwania i znających podstawowe rzuty (z zakresu kursu dla początkujących)."
+        image: assets/img/services/rzuty.jpg
       - title: "Dog fitness"
-        desc: "
-          DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia lub terapia u psów po zabiegach ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
-          To świetny sposób na budowanie więzi z psem oraz naukę nowych umiejętności gdy za oknem warunki nie pozwalają na aktywność poza domem.
-          "
+        desc: "DogFitness to stosunkowo nowa dziedzina budząca coraz to większe zainteresowanie. To zarówno ćwiczenia lub terapia u psów po zabiegach
+        ortopedycznych czy z dysfunkcjami układu ruchu jak również rozwijanie cech motorycznych u zdrowych zwierząt.
+        To świetny sposób na budowanie więzi z psem oraz naukę nowych umiejętności gdy za oknem warunki nie pozwalają na aktywność poza domem."
+        image: assets/img/services/dog_fitness.jpg
+      - title: "Kurs posłuszeństwa podstawowego"
+        desc: "Kurs obejmuje 6 zajęć grupowych, grupa liczy 4-6 par ćwiczących.
+        Na zajęciach skupimy się na przyzwyczajaniu psa do pracy w grupie, nauce fundamentów grzecznego zachowania na spacerze oraz poznawaniem podstawowych komend.
+        Podczas kursu dowiecie się jak współpracować z psem oraz urozmaicać zwykłe spacery. Kurs przeznaczony dla psów w wieku powyżej 6 miesiąca życia."
+        image: assets/img/services/poslu.jpg
+      - title: "Kurs posłuszeństwa zaawansowanego"
+        desc: "Kurs obejmuje 6 zajęć grupowych, grupa liczy 4-6 par ćwiczących.
+        Na zajęciach skupimy się na zaawansowanych komendach wykorzystywanych w posłuszeństwie, chodzeniu przy nodze oraz zapoznaniu was i waszych psów z różnymi
+        zabawami urozmaicającymi spacer. Kurs przeznaczony dla: psów w wieku powyżej 6 miesiąca życia i znających już podstawowe komendy (z zakresu kursu posłuszeństwa podstawowego), psów, które odbyły już kurs podstawowego posłuszeństwa w naszej szkółce, bądź w innej."
+        image: assets/img/services/posl2.jpg
+      - title: "Problemy życia codziennego"
+        desc: "Zajęcia w formie indywidualnej dla właścicieli, którzy chcą skupić się na problemach występujących w codziennym życiu (nadmierna ekscytacja, ciągnięcie na smyczy, problemy z posłuszeństwem podczas spacerów, problememy z minięciem innego psa, gonienie samochodów, itp.).
+        Zajęcia przeznaczone dla psów w każdym wieku. Nie zajmujemy się psami agresywnymi/lękliwymi."
         image: assets/img/services/dog_fitness.jpg
         #icon: fab fa-markdown
 
@@ -120,7 +144,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Ania"
-        role: "Trener i zawodnik"
+        role: "Trener i zawodnik agility"
         phone: "+48 793 610 996"
         image: assets/img/team/ania.jpg
         social: 
@@ -133,7 +157,7 @@ en: &DEFAULT_EN
           - url: mailto:ania@hi-low.eu
             icon: fa fa-at 
       - name: "Ola"
-        role: "Trener i zawodnik"
+        role: "Trener i zawodnik frisbee"
         phone: "+48 698 556 373"
         image: assets/img/team/Ola.jpeg
         social:
@@ -145,17 +169,34 @@ en: &DEFAULT_EN
             icon: fa fa-phone
           - url: mailto:aleksandrahojenska@gmail.com
             icon: fa fa-at
+      - name: "Klaudia"
+        role: "Trener i zawodnik agility"
+        phone: "+48 698 556 373"
+        image: assets/img/team/Klaudia.jpg
+        social:
+          - url: https://www.facebook.com/Fantowa
+            icon: fab fa-facebook-f
+          - url: https://www.instagram.com/fantow_a/
+            icon: fab fa-instagram
+          - url: tel:+48-730-774-399
+            icon: fa fa-phone
+          - url: mailto:klaudia.el@gmail.com
+            icon: fa fa-at
   friends:
     max-height: 100px;
     section: friends
     horizontal-scrolling: "" #yes/no
     list:
-      - title: "Psi Paragraf"
+      - title: "Psi Paragraf
+      Agnieszka Łyp-Chmielewska"
         logo: https://psiparagraf.pl/wp-content/themes/thesis_189/custom/images/kancelaria.logo.png
         url: "http://psiparagraf.pl/"
       - title: "ArtSfera Sylwia Bryniarska"
         logo: https://www.sylwiabryniarska.pl/wp-content/logo.jpg
         url: "http://www.sylwiabryniarska.pl/"
+      - title: "Shot Story Karolina Tarkowska"
+        logo: assets/img/shot.jpg
+        url: "https://www.facebook.com/shotstoryphoto/"
       
   contact:
     title: "Dane kontaktowe"
