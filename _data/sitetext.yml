@@ -171,7 +171,7 @@ en: &DEFAULT_EN
             icon: fa fa-at
       - name: "Klaudia"
         role: "Trener i zawodnik agility"
-        phone: "+48 698 556 373"
+        phone: "+48 730 774 399"
         image: assets/img/team/Klaudia.jpg
         social:
           - url: https://www.facebook.com/Fantowa
