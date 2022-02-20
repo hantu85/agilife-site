@@ -161,13 +161,13 @@ en: &DEFAULT_EN
         phone: "+48 698 556 373"
         image: assets/img/team/Ola.jpeg
         social:
-          - url: https://www.facebook.com/olkenz.hojenska
+          - url: www.facebook.com/BladeonFireDogfrisbee/
             icon: fab fa-facebook-f
-          - url: https://www.instagram.com/_kalles_/
+          - url: bladeonfire.pl@gmail.com
             icon: fab fa-instagram
           - url: tel:+48-698-556-373
             icon: fa fa-phone
-          - url: mailto:aleksandrahojenska@gmail.com
+          - url: mailto:bladeonfire.pl@gmail.com
             icon: fa fa-at
       - name: "Klaudia"
         role: "Trener i zawodnik agility"
