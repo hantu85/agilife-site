@@ -23,17 +23,16 @@ en: &DEFAULT_EN
     list:
       - title: "Kursy agility"
         desc: "Kurs agility obejmuje 8 zajęć grupowych z podstaw agility. Grupa to najczęściej 3 lub 4 pary ćwiczące.
-          Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Na kursie ustalony jest program zajęć, oraz prace domowe. Kurs przeznaczony dla psów od 8 miesiąca życia, posiadającego podstawy posłuszeństwa i motywacje do pracy z człowiekiem."
+          Na kursie jeden pies pracuje a w tym czasie reszta odpoczywa, spaceruje. Kurs przeznaczony dla psów od 8 miesiąca życia, posiadającego podstawy posłuszeństwa i motywacje do pracy z człowiekiem."
         image: assets/img/services/kurs.jpeg
       - title: "Treningi agility"
-        desc: "Główna część naszej działaności. Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility.
+        desc: "Treningi agility w grupie, skierowane dla par bardziej zaawannsowanych lub po kusie agility.
         Grupy od 3 do 5 par. Na treningach skupiamy się na konkretnych sekwencjach, sposobach prowadzenia psa na torze.
-        Czasami są treningi torkowe, a czasami dłubanie detali, nauka nowych przeszkód."
+        Czasami są treningi torkowe, a czasami dłubanie detali i sekwencji."
         image: assets/img/services/agi2.jpeg
       - title: "Kurs dogfrisbee"
         desc: "Kurs obejmuje 6 zajęć grupowych, pierwsze zajęcia odbywają się bez psów i opierają się na nauce podstawowych rzutów frisbee.
-        Grupa to 4 pary ćwiczące. Kurs przeznaczony dla psów od 10 miesiąca życia, posiadających motywację na zabawkę oraz nie posiadających przeciwwskazań zdrowotnych, bądź behawioralnych (tj. agresja, lękliwość, itp.).
-        Wymagania do kursu: posiadanie własnego szarpaka oraz conajmniej 2 dysków przystosowanych dla psów (polecamy dyski z dogfrisbee.pl)."
+        Kurs przeznaczony dla psów od 10 miesiąca życia, posiadających motywację na zabawkę oraz nie posiadających przeciwwskazań zdrowotnych, bądź behawioralnych."
         image: assets/img/services/friss.jpg
       - title: "Kurs rzuty dla początkujących"
         desc: "Kurs obejmuje 5 zajęć grupowych i odbywa się bez psów, grupa to 4-8 osób. Zajęcia obejmują naukę poprawnego chwytu dysku, różnorodnych rzutów,
@@ -45,7 +44,6 @@ en: &DEFAULT_EN
         image: assets/img/services/rzuty2.jpg
       - title: "Psie przedszkole"
         desc: "Kurs obejmuje 8 tematycznych zajęć grupowych - plan został tak opracowany, aby przez ten czas poruszyć najważniejsze kwestie dotyczące wychowania szczęśliwego, ciekawego świata szczeniaka. Zajęcia trwają godzinę i mają charakter teoretyczno-praktyczny.
-        W trakcie trwania kursu uczestnicy mają dostęp do prywatnej grupy na Facebooku, gdzie na bieżąco mogą zadawać pytania dotyczące kwestii poruszanych na zajęciach, chwalić się postępami i otrzymywać feedback.
         Kurs obejmuje między innymi: motywację i nagradzanie, wstęp do kształtowania, przywołania, luźnej smyczy, poznanie klatki / legowiska, podstawowe komendy: siad, waruj, zostań, wybrane sztuczki, przyzwyczajenie do zabiegów pielęgnacyjnych i weterynaryjnych, poznanie \"dziwnych\" nawierzchni.
         Przeznaczony dla psów w wieku 2-7 miesięcy"
         image: assets/img/services/przed.jpg
@@ -66,8 +64,8 @@ en: &DEFAULT_EN
         image: assets/img/services/poslu2.jpg
       - title: "Konsultacje indywidualne"
         desc: "Zajęcia w formie indywidualnej dla właścicieli, którzy chcą skupić się na problemach występujących w codziennym życiu (nadmierna ekscytacja, ciągnięcie na smyczy, problemy z posłuszeństwem podczas spacerów, problememy z minięciem innego psa, gonienie samochodów, problemy z motywacją).
-        Zajęcia przeznaczone dla psów w każdym wieku. Nie zajmujemy się psami agresywnymi/lękliwymi. Zajęcia są przeznaczone dla psów, które z różnych przyczyn nie są w stanie uczestniczyć w zajęciach grupowych."
-        image: assets/img/services/ind.jpg
+        Nie zajmujemy się psami agresywnymi/lękliwymi."
+        image: assets/img/services/Ind.jpg
         #icon: fab fa-markdown
 
   gallery:
@@ -75,20 +73,20 @@ en: &DEFAULT_EN
     section: gallery
     items:
       - title: "Jesienne zawody Agility Agilife"
-        subtitle: "06-07.10.2018 Część 1"
+        subtitle: "06-07.10.2018"
         image: /assets/img/gallery/jesienne_1.jpg
         url: https://www.facebook.com/media/set/?set=a.2054355451293189&type=3
       - title: "Kwalifikacje Do Mistrzostw Świata Agility"
-        subtitle: "Będzin 18-19.05.2019 Część 1"
+        subtitle: "Będzin 18-19.05.2019"
         image: /assets/img/gallery/kwal_ms_bedzin_2019_1.jpg
         url: https://www.facebook.com/media/set/?set=a.2386374274757970&type=3
-      - title: "Kwalifikacje Do Mistrzostw Świata Agility"
-        subtitle: "Będzin 18-19.05.2019 Część 2"
-        image: /assets/img/gallery/kwal_ms_bedzin_2019_2.jpg
-        url: https://www.facebook.com/media/set/?set=a.2387927031269361&type=3
-      - title: "Kwalifikacje do Mistrzostw Świata Będzin"
-        image: /assets/img/gallery/kwal_ms_bedzin.jpg
-        url: https://www.facebook.com/media/set/?set=a.2423424794386251&type=3
+      - title: "Wiosenne zawody agility"
+        subtitle: "Czeladź 10-11.04.2021"
+        image: /assets/img/gallery/kwiecien21.jpg
+        url: https://www.facebook.com/media/set/?set=a.286672819706843&type=3
+      - title: "Mistrzostwa Polski Agility Sosnowiec"
+        image: /assets/img/gallery/MP21.jpg
+        url: https://www.facebook.com/media/set/?set=a.418453439862113&type=3
 
   portfolio:
     title: "Portfolio"
@@ -119,11 +117,11 @@ en: &DEFAULT_EN
         desc: "Poszerzamy działalność o zawody oficjalne pod patronatem ZKWP/FCI we współpracy ZKWP Odział Będzin."
         image: assets/img/timeline/zawody.jpeg
         alt: image alt text
-#      - title: "Title"
-#        year: "2009-2011"
-#        desc: "Your description here, **Markdown** is fully supported."
-#        image: assets/img/timeline/4.jpg
-#        alt:
+      - title: "Dalszy rozwój"
+        year: "2022"
+        desc: "Rozszerzamy działalność szkoleniową o posłuszeńtwo, frisbee oraz psie przedszkole. Pojawiają się nowi trenerzy i nowe możliwości rozwojowe."
+        image: assets/img/timeline/Kursy.jpeg
+        alt:
 #        # you can enforce the alignment
 #        align: right
     end: "Twórz <br/> historię <br/> z nami!"
