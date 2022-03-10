@@ -225,6 +225,27 @@ en: &DEFAULT_EN
       - "ul. Saturnowska 2b"
       - "41-250 Czeladź"
 
+  pricing:
+    title: "Cennik"
+    section: pricing
+    text: "Poniżej znajduje się aktualny cennik zajęć."
+    price: "Cena"
+    groups:
+      - name: "Agility"
+        items:
+          - name: "Trening"
+            price: "70 zł"
+          - name: "Kurs"
+            price: "680 zł"
+      - name: "Frisbee"
+        items:
+          - name: "Trening"
+            price: "70 zł"
+      - name: "Pozostałe"
+        items: 
+          - name: "Psi przedszkole"
+            price: "60 zł"
+
   footer:
     legal: "Privacy Policy"
     social:

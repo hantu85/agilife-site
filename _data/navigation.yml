@@ -15,14 +15,18 @@ en: &DEFAULT_EN
       section: services
     - title: "O nas"
       section: about
-    - title: "Trenerzy"
-      section: team
+    - title: "Cennik"
+      section: pricing
     - title: "Galeria"
       section: gallery
-    - title: "Kontakt"
-      section: contact
+    - title: "Historia"
+      section: timeline
+    - title: "Trenerzy"
+      section: team
     - title: "Psi-jaciele"
       section: friends
+    - title: "Kontakt"
+      section: contact
 en-US:
   <<: *DEFAULT_EN
 en-CA:
