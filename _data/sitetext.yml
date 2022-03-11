@@ -197,7 +197,10 @@ en: &DEFAULT_EN
       - title: "Shot Story Karolina Tarkowska"
         logo: assets/img/shot.jpg
         url: "https://www.facebook.com/shotstoryphoto/"
-      
+      - title: "Związek Kynologiczny w Polsce Oddział w Będzinie"
+        logo:  http://www.zkwp-bedzin.pl/images/logo.png
+        url: "http://www.zkwp-bedzin.pl"
+
   contact:
     title: "Dane kontaktowe"
     text: ""
