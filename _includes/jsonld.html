@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "Agilife",
+	"email": "{{ site.data.sitetext[site.locale].contact.email.address }}",
+	"telephone": "{{ site.data.sitetext[site.locale].contact.phone.number }}",
+	"url": "https://agilife.pl",
+	"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Czeladź, Poland",
+		"streetAddress": "Saturnowska 2B"
+	},
+	"members": [
+	{% for person in site.data.sitetext[site.locale].team.people %}
+	{
+		"@type": "Person",
+		"name": "{{ person.name }}",
+		"telephone": "{{ person.phone }}",
+		"image": "{{ person.image }}",
+		"jobTitle": "{{ person.role }}"
+	}
+	{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+	],
+	"hasOfferCatalog": {
+		"@type": "OfferCatalog",
+		"name": "Dog Training",
+		"itemListElement": [
+		{% for offer in site.data.sitetext[site.locale].services.list %}
+		{
+			"@type": "Offer",
+			"itemOffered": {
+				"@type": "Service",
+				"name": "{{ offer.title }}",
+				"image": "{{ offer.image }}"
+			}
+		}
+		{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+		] 
+	}
+}
+</script>
