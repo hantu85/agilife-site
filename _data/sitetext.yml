@@ -233,18 +233,30 @@ en: &DEFAULT_EN
     groups:
       - name: "Agility"
         items:
-          - name: "Trening"
+          - name: "Trening grupowy"
             price: "70 zł"
-          - name: "Kurs"
-            price: "680 zł"
+          - name: "Trening indywidualny"
+            price: "100 zł"
+          - name: "Kurs dla początkujących"
+            price: "8 spotkań - 680 zł"
       - name: "Frisbee"
         items:
           - name: "Trening"
             price: "70 zł"
+          - name: "Kurs Dogfrisbee"
+            price: "6 spotkań - 500 zł"
+          - name: "Kurs rzuty dla początkujących"
+            price: "5 spotkań - 150 zł"
+          - name: "Kurs rzuty dla zaawansowanych"
+            price: "5 spotkań - 200 zł"
       - name: "Pozostałe"
         items: 
-          - name: "Psi przedszkole"
-            price: "60 zł"
+          - name: "Psie przedszkole"
+            price: "6 spotkań - 400 zł"
+          - name: "Konsultacja zoofizjoterapeutyczna i terapia"
+            price: "70 zł"
+          - name: "Konsultacje indywidualne"
+            price: "100 zł"
 
   footer:
     legal: "Privacy Policy"
