@@ -211,7 +211,7 @@ en: &DEFAULT_EN
     email-validation: "Please enter your email address."
     phone:
       title: "Telefon"
-      number: "+48 792 610 996"
+      number: "+48 793 610 996"
     email:
       title: "Email"
       address: "agilife@hi-low.eu"
@@ -263,7 +263,7 @@ en: &DEFAULT_EN
     social:
       - url: https://www.facebook.com/AgilifeKlub
         icon: "fab fa-facebook-f"
-      - url: tel:+48-792-610-996
+      - url: tel:+48-793-610-996
         icon: fa fa-phone       
       - url: mailto:ania@hi-low.eu
         icon: fa fa-at 
