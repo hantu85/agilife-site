@@ -155,7 +155,20 @@ en: &DEFAULT_EN
           - url: tel:+48-793-610-996
             icon: fa fa-phone       
           - url: mailto:ania@hi-low.eu
-            icon: fa fa-at 
+            icon: fa fa-at
+      - name: "Ania"
+        role: "Trener i zawodnik agility"
+        phone: "+48 533 458 648"
+        image: assets/img/team/AniaS.jpg
+        social:
+          - url: https://www.facebook.com/javusia
+            icon: fab fa-facebook-f
+          - url: https://instagram.com/kapibareczka?igshid=YmMyMTA2M2Y=
+            icon: fab fa-instagram
+          - url: tel:+48-533-458-648
+            icon: fa fa-phone
+          - url: mailto:javeira@gmail.com
+            icon: fa fa-at
       - name: "Ola"
         role: "Trener i zawodnik frisbee"
         phone: "+48 698 556 373"
@@ -169,19 +182,7 @@ en: &DEFAULT_EN
             icon: fa fa-phone
           - url: mailto:bladeonfire.pl@gmail.com
             icon: fa fa-at
-      - name: "Klaudia"
-        role: "Trener i zawodnik agility"
-        phone: "+48 730 774 399"
-        image: assets/img/team/Klaudia.jpg
-        social:
-          - url: https://www.facebook.com/Fantowa
-            icon: fab fa-facebook-f
-          - url: https://www.instagram.com/fantow_a/
-            icon: fab fa-instagram
-          - url: tel:+48-730-774-399
-            icon: fa fa-phone
-          - url: mailto:klaudia.el@gmail.com
-            icon: fa fa-at
+
   friends:
     max-height: 100px;
     section: friends
@@ -191,9 +192,9 @@ en: &DEFAULT_EN
       Agnieszka Łyp-Chmielewska"
         logo: https://psiparagraf.pl/wp-content/themes/thesis_189/custom/images/kancelaria.logo.png
         url: "http://psiparagraf.pl/"
-      - title: "ArtSfera Sylwia Bryniarska"
-        logo: https://www.sylwiabryniarska.pl/wp-content/logo.jpg
-        url: "http://www.sylwiabryniarska.pl/"
+      - title: "Sport Psychologist Maria Bober"
+        logo: assets/img/IMG_5592.PNG
+        url: "https://sportbober.pl"
       - title: "Shot Story Karolina Tarkowska"
         logo: assets/img/shot.jpg
         url: "https://www.facebook.com/shotstoryphoto/"
