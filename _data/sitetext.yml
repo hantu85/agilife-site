@@ -234,12 +234,14 @@ en: &DEFAULT_EN
     groups:
       - name: "Agility"
         items:
-          - name: "Trening grupowy"
-            price: "70 zł"
+          - name: "Trening grupowy jednorazowy"
+            price: "80 zł"
+          - name: "Trening grupowy karnet 4 zajęcia w miesiącu"
+            price: "280 zł"
           - name: "Trening indywidualny"
-            price: "100 zł"
+            price: "120 zł"
           - name: "Kurs dla początkujących"
-            price: "8 spotkań - 680 zł"
+            price: "8 spotkań - 720 zł"
       - name: "Frisbee"
         items:
           - name: "Trening"
