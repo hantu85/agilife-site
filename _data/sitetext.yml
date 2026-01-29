@@ -156,22 +156,9 @@ en: &DEFAULT_EN
             icon: fa fa-phone       
           - url: mailto:ania@hi-low.eu
             icon: fa fa-at
-      - name: "Ania"
-        role: "Trener i zawodnik agility"
-        phone: "+48 533 458 648"
-        image: assets/img/team/AniaS.jpg
-        social:
-          - url: https://www.facebook.com/javusia
-            icon: fab fa-facebook-f
-          - url: https://instagram.com/kapibareczka?igshid=YmMyMTA2M2Y=
-            icon: fab fa-instagram
-          - url: tel:+48-533-458-648
-            icon: fa fa-phone
-          - url: mailto:javeira@gmail.com
-            icon: fa fa-at
       - name: "Ola"
         role: "Trener i zawodnik frisbee"
-        phone: "+48 698 556 373"
+        phone: "+48 784 887 968"
         image: assets/img/team/Ola.jpeg
         social:
           - url: www.facebook.com/BladeonFireDogfrisbee/
@@ -235,9 +222,9 @@ en: &DEFAULT_EN
       - name: "Agility"
         items:
           - name: "Trening grupowy jednorazowy"
-            price: "80 zł"
+            price: "90 zł"
           - name: "Trening grupowy karnet 4 zajęcia w miesiącu"
-            price: "280 zł"
+            price: "320 zł"
           - name: "Trening indywidualny"
             price: "120 zł"
           - name: "Kurs dla początkujących"
@@ -256,8 +243,6 @@ en: &DEFAULT_EN
         items: 
           - name: "Psie przedszkole"
             price: "6 spotkań - 400 zł"
-          - name: "Konsultacja zoofizjoterapeutyczna i terapia"
-            price: "70 zł"
           - name: "Konsultacje indywidualne"
             price: "100 zł"
 
